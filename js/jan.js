@@ -4,7 +4,11 @@ function gu(){
  	
 
 	if (myhand == youhand){
+<<<<<<< HEAD
 		 result = "AIKO";
+=======
+		 result = "引き分け";
+>>>>>>> 9a5b46798713201dba12c4c5fb1de9208806ae6c
 	}
 	
 	if (myhand > youhand){
