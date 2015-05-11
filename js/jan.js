@@ -4,7 +4,7 @@ function gu(){
  	
 
 	if (myhand == youhand){
-		 result = "あいこ";
+		 result = "AIKO";
 	}
 	
 	if (myhand > youhand){
