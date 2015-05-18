@@ -1,17 +1,23 @@
-<!DOCTYPE>
-
+<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-	<title>janken</title>
+<title>janken</title>
 <link rel="stylesheet"href="style.css">
+<script type="text/javascript" src="jan.js"></script>
 </head>
 
 <body>
 
-<h1></h1>
-<input type="submit" value="グーーーー">
-<input type="submit" value="チョキ">
-<input type="submit" value="パー">
+<input type="submit" onClick="getbhand(0)" value="グー">
+<input type="submit" onClick="getbhand(1)" value="チョキ">
+<input type="submit" onClick="getbhand(2)"value="パー">
+
+<div id="Messege1"></div>
+
+<div id="Message2"></div>
+
+<div id="message"></div>
+
 </body>
 </html>

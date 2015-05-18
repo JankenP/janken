@@ -1,15 +1,15 @@
-hand = new Array("ƒO[","ƒ`ƒ‡ƒL","ƒp[");
-msg = new Array("Ÿ—˜","”s–k","‚ ‚¢‚±");
+hand = new Array("ã‚°ãƒ¼","ãƒãƒ§ã‚­","ãƒ‘ãƒ¼");
+msg = new Array("å‹åˆ©","æ•—åŒ—","ã‚ã„ã“");
 function getbhand(btn) {
-	//è‚ğo‚·
+	//æ‰‹ã‚’å‡ºã™
 	r = Math.floor(Math.random() * 3);
-	document.getElementById("Messege1").innerHTML ="‘Šè‚Í: " + hand[r];
-	document.getElementById("Message2").innerHTML = "©•ª‚Í: " + hand[btn];
+	document.getElementById("Messege1").innerHTML ="ç›¸æ‰‹ã¯: " + hand[r];
+	document.getElementById("Message2").innerHTML = "è‡ªåˆ†ã¯: " + hand[btn];
 	
-	//‚ ‚¢‚±
+	//ã‚ã„ã“
 	var num = 2;
 	
-	//ƒO[ ”z—ñ‚É‚È‚Á‚Ä‚¢‚é
+	//ã‚°ãƒ¼ é…åˆ—ã«ãªã£ã¦ã„ã‚‹
 	if (btn == 0 && r == 1){
 		 num = 0;
 	}
@@ -18,20 +18,20 @@ function getbhand(btn) {
 		num = 1;
 	}
 	
-	//ƒ`ƒ‡ƒL
+	//ãƒãƒ§ã‚­
 	if (btn == 1 && r == 0){
 		num = 1;
 	}
 	if (btn == 1 && r == 2){
 		num = 0;
 	}
-	//ƒp[
+	//ãƒ‘ãƒ¼
 	if (btn == 2 && r == 0){
 		num = 0;
 	}
 	if (btn == 2 && r == 1){
 		num = 1;
 	}
-	//•\¦
+	//è¡¨ç¤º
 	document.getElementById("message").innerHTML = msg[num];
 }
