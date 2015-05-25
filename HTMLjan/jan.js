@@ -3,8 +3,8 @@ msg = new Array("img/win.jpg","img/lose.jpg","img/draw.jpg");
 function getbhand(btn) {
 	//手を出す
 	r = Math.floor(Math.random() * 3);
-	document.getElementById("Messege1").innerHTML ="相手<br>" + "<img src='" + hand[r] + "'>";
-	document.getElementById("Message2").innerHTML = "自分<br>" + "<img src='" + hand[btn]+ "'>";
+	document.getElementById("Messege1").innerHTML ="<img src='" + hand[r] + "'>";
+	document.getElementById("Message2").innerHTML = "<img src='" + hand[btn]+ "'>";
 	
 	//あいこ
 	var num = 2;
@@ -33,5 +33,5 @@ function getbhand(btn) {
 		num = 1;
 	}
 	//表示
-	document.getElementById("message").innerHTML = "勝敗は？<br>" + "<img src='" + msg[num] + "'>";
+	document.getElementById("message").innerHTML ="<img src='" + msg[num] + "'>";
 }
