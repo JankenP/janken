@@ -6,3 +6,10 @@ body {background-image: url(img/083.gif);
 .sub,h1	{margin-left:233px;
 		margin-bottom:20px;
 }
+
+p	{font-weight:bold;
+}
+
+.a	{position:absolute;
+	top:820px;
+}
